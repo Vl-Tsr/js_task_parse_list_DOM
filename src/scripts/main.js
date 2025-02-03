@@ -15,8 +15,6 @@ function convertor(num) {
   return +num.replace(/\D/g, '');
 }
 
-sortList('ul');
-
 function getEmployees(list) {
   const elementUl = document.querySelector(list);
   const elementsLi = [...elementUl.querySelectorAll('li')];
